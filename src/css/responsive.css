@@ -1,0 +1,32 @@
+@media (max-width: 670px) {
+
+    body{
+        height: 100%;
+        min-height: 768px;
+    }
+
+    .product-card{
+        flex-direction: column;
+        width: 345px
+    }
+
+    .product-card .product-image {
+        height: 240px;
+        width: 345px;
+        background-image: url(../images/image-product-mobile.jpg);
+        border-radius: 10px 10px 0 0;
+    }
+
+    .product-card .info {
+        width: 345px;
+        height: 100%;
+        padding: 25px 0;
+        background-color: var(--neutral-soft);
+        border-radius: 0 0 10px 10px;
+    }
+
+    .product-card .info .product-info .product-description{
+        font-size: 16px;
+    }
+
+}

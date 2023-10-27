@@ -1,0 +1,14 @@
+:root{
+    /* colors */
+    --primary-soft: hsl(30, 38%, 92%);
+    --primary-medium: hsl(158, 36%, 37%);
+    --primary-dark: #1a4031;
+
+    --neutral-soft: white;
+    --neutral-medium: hsl(228, 12%, 48%);
+    --neutral-dark: hsl(212, 21%, 14%);
+
+    /* fonts */
+    --ff-texts: 'Montserrat', sans-serif;
+    --ff-headings: 'Fraunces', sans-serif;
+}
